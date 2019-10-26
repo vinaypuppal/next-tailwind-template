@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write './**/*.+(js|jsx|json|md)'"
+    "format": "prettier --write './**/*.+(js|jsx|json|md|tsx|ts|gql|css)'"
   },
   "keywords": [],
   "author": "",
@@ -31,15 +31,7 @@
     "typescript": "^3.6.4"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "**/*.md": [
+    "*.{js|jsx|tsx|ts|gql|css|md|json}": [
       "prettier --write",
       "git add"
     ]
