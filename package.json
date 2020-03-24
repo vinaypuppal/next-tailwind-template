@@ -24,7 +24,7 @@
     "cssnano": "^4.1.10",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
-    "next-purgecss": "^3.1.2",
+    "next-purgecss": "^4.0.0",
     "postcss-easy-import": "^3.0.0",
     "prettier": "^1.19.1",
     "tailwindcss": "^1.2.0",
